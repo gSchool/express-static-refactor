@@ -1,0 +1,22 @@
+{
+  "name": "express-static-refactor",
+  "version": "1.0.0",
+  "description": "Special thanks to g42's [Kevin Zheng](https://github.com/kvinzheng) for letting us use some of his open source code for this assignment.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/uppal101/express-static-refactor.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/uppal101/express-static-refactor/issues"
+  },
+  "homepage": "https://github.com/uppal101/express-static-refactor#readme",
+  "dependencies": {
+    "express": "^4.14.1"
+  }
+}
