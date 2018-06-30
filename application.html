@@ -1,262 +1,262 @@
 <!DOCTYPE html>
 <html>
-<head>
-  <meta charset="utf-8">
-  <title>Traffic Accident</title>
-  <link rel = "stylesheet" href = "application.css">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.0/css/materialize.min.css">
-  <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-</head>
+  <head>
+    <meta charset="utf-8">
+    <title>Traffic Accident</title>
+    <link rel = "stylesheet" href = "application.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.0/css/materialize.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  </head>
 
-<body class = "#e3f2fd blue lighten-5">
-  <nav class = "#1976d2 blue darken-2 header-cont ">
-    <div class="nav-wrapper container">
-      <a href ="index.html" class="brands-logo" >Application Homepage</a>
-      <a href ="" class="right" >Google Map</a>
-    </div>
-  </nav>
-
-  <div class="section no-pad-bot" id = "index-banner" >
-    <div class="container" id = "background">
-      <br><br>
-      <div class="row center-title">
-        <h1 class="header center white-text"> Car Incident GPS</h1>
+  <body class = "#e3f2fd blue lighten-5">
+    <nav class = "#1976d2 blue darken-2 header-cont ">
+      <div class="nav-wrapper container">
+        <a href ="index.html" class="brands-logo" >Application Homepage</a>
+        <a href ="" class="right" >Google Map</a>
       </div>
-      <br><br>
+    </nav>
+
+    <div class="section no-pad-bot" id = "index-banner" >
+      <div class="container" id = "background">
+        <br><br>
+        <div class="row center-title">
+          <h1 class="header center white-text"> Car Incident GPS</h1>
+        </div>
+        <br><br>
+      </div>
     </div>
-  </div>
 
-<main class == "container">
-  <div class = "row">
-    <div name="left-hand side" class="col s6">
-      <form action="" method="get" name = "hello">
-      <br>
-      <br>
-      <div class="left-hand side col s12 m12 l12 ">
-        <div class="card-panel #bbdefb blue lighten-4">
-          <div class="row valign-wrapper">
-            <div class="col s2">
-              <img src="images/spy.png" alt="" class=" circle responsive-img">
-            </div>
+    <main class == "container">
+      <div class = "row">
+        <div name="left-hand side" class="col s6">
+          <form action="" method="get" name = "hello">
+          <br>
+          <br>
+          <div class="left-hand side col s12 m12 l12 ">
+            <div class="card-panel #bbdefb blue lighten-4">
+              <div class="row valign-wrapper">
+                <div class="col s2">
+                  <img src="images/spy.png" alt="" class=" circle responsive-img">
+                </div>
 
-            <div class="col s10">
-              <span class="black-text">
-                Hey, my name is Siri. If you are ever curious about where and when incidents occur the most often in San Francisco, please select the options below.
-              </span>
+                <div class="col s10">
+                  <span class="black-text">
+                    Hey, my name is Siri. If you are ever curious about where and when incidents occur the most often in San Francisco, please select the options below.
+                  </span>
+                </div>
+              </div>
             </div>
+          </div>
+          <br>
+          <br>
+          <br>
+          <br>
+          <br>
+          <br>
+          <br>
+          <br>
+          <br>
+          <br>
+          <div>
+            <label for="selection-time">Please select the time of the day</label>
+            <select id="selection-time" class="validate" name="time">
+              <option value="" >Default_(12:00 am -11:59 pm)</option>
+              <option value = '01'> 1:00 a.m. </option>
+              <option value = '02'> 2:00 a.m. </option>
+              <option value = '03'> 3:00 a.m. </option>
+              <option value = '04'> 4:00 a.m. </option>
+              <option value = '05'> 5:00 a.m. </option>
+              <option value = '06'> 6:00 a.m. </option>
+              <option value = '07'> 7:00 a.m. </option>
+              <option value = '08'> 8:00 a.m. </option>
+              <option value = '09'> 9:00 a.m. </option>
+              <option value = '10'> 10:00 a.m. </option>
+              <option value = '11'> 11:00 a.m. </option>
+              <option value = '12'> 12:00 p.m. </option>
+              <option value = '13'> 1:00 p.m. </option>
+              <option value = '14'> 2:00 p.m. </option>
+              <option value = '15'> 3:00 p.m. </option>
+              <option value = '16'> 4:00 p.m. </option>
+              <option value = '17'> 5:00 p.m. </option>
+              <option value = '18'> 6:00 p.m. </option>
+              <option value = '19'> 7:00 p.m. </option>
+              <option value = '20'> 8:00 p.m. </option>
+              <option value = '21'> 9:00 p.m. </option>
+              <option value = '22'> 10:00 p.m. </option>
+              <option value = '23'> 11:00 p.m. </option>
+              <option value = '00'> 12:00 a.m. </option>
+            </select>
+          </div>
+          <br>
+          <div >
+            <label for="selection-day">Please select the day of the week</label>
+            <select id="selection-day" name="week">
+              <option value="" >Default_(Monday - Sunday)</option>
+              <option value="Monday"> Monday </option>
+              <option value="Tuesday"> Tuesday </option>
+              <option value="Wednesday"> Wednesday </option>
+              <option value="Thursday"> Thursday </option>
+              <option value="Friday"> Friday </option>
+              <option value="Saturday"> Saturday </option>
+              <option value="Sunday"> Sunday </option>
+            </select>
+          </div>
+          <br>
+          <div>
+            <label for="selection-year">Please select the year</label>
+            <select id="selection-year" class="validate" name="year">
+              <option value="" >Default_(2003 - 2017) </option>
+              <option value = '2003'> 2003 </option>
+              <option value = '2004'> 2004 </option>
+              <option value = '2005'> 2005 </option>
+              <option value = '2006'> 2006 </option>
+              <option value = '2007'> 2007 </option>
+              <option value = '2008'> 2008 </option>
+              <option value = '2009'> 2009 </option>
+              <option value = '2010'> 2010 </option>
+              <option value = '2011'> 2011 </option>
+              <option value = '2012'> 2012 </option>
+              <option value = '2013'> 2013 </option>
+              <option value = '2014'> 2014 </option>
+              <option value = '2015'> 2015 </option>
+              <option value = '2016'> 2016 </option>
+              <option value = '2017'> 2017 </option>
+            </select>
+          </div>
+          <br>
+          <div >
+            <label for="selection-district">Please select the district in San Francisco</label>
+            <select id="selection-district" name="district">
+              <option value="" >Default_(All Districts)</option>
+              <option value = "BAYVIEW">BAYVIEW</option>
+              <option value = "CENTRAL">CENTRAL</option>
+              <option value = "INGLESIDE">INGLESIDE</option>
+              <option value = "MISSION">MISSION</option>
+              <option value = "NORTHERN">NORTHERN</option>
+              <option value = "PARK">PARK</option>
+              <option value = "RICHMOND">RICHMOND</option>
+              <option value = "SOUTHERN">SOUTHERN</option>
+              <option value = "TARAVAL">TARAVAL</option>
+              <option value = "TENDERLOIN">TENDERLOIN</option>
+            </select>
+          </div>
+          <br>
+          <div>
+            <label for="selection-resolution">Please select the kind of incident</label>
+            <select id="selection-resolution" class="validate" name="resolution">
+              <option value="" >Default_(All Resolutions) </option>
+              <option value = 'NONE'> NONE </option>
+              <option value = "ARREST, BOOKED"> ARREST, BOOKED </option>
+              <option value = 'ARREST, CITED'> ARREST, CITED </option>
+              <option value = "COMPLAINANT REFUSES TO PROSECUTE"> COMPLAINANT REFUSES TO PROSECUTE </option>
+              <option value = "DISTRICT ATTORNEY REFUSES TO PROSECUTE"> DISTRICT ATTORNEY REFUSES TO PROSECUTE </option>
+              <option value = "EXCEPTIONAL CLEARANCE"> EXCEPTIONAL CLEARANCE </option>
+              <option value = "JUVENILE ADMONISHED"> JUVENILE ADMONISHED </option>
+              <option value = "JUVENILE BOOKED"> JUVENILE BOOKED </option>
+              <option value = "JUVENILE CITED"> JUVENILE CITED </option>
+              <option value = "NOT PROSECUTED"> NOT PROSECUTED </option>
+              <option value = "PSYCHOPATHIC CASE"> PSYCHOPATHIC CASE </option>
+              <option value = "UNFOUNDED"> UNFOUNDED</option>
+            </select>
+          </div>
+        </br>
+          <div >
+            <button id="submit" class="btn waves-effect waves-light #f06292 pink lighten-2" type="submit" name="submitbutton" value="Submit">Click Here To Look At The Danger Zone!</button>
+          </div>
+        </form>
+
+        <div name = "display">
+          <div class="row">
+            <div>
+              <i class="medium material-icons iconleft  input-icon">input</i>
+              <div class = "input-text"> Total Incident :
+                <span id="numberofIncident"> </span> </div>
+              </div>
+          </div>
+        </div>
+        </div>
+        <div name="right-hand side" class="col s6">
+          <br>
+          <div id = "map-canvas" ></div>
+        </div>
+
+         <div class="row">
+           <div class="col s11 offset-s1">
+            <table class = "striped tablewid">
+            <thead>
+              <tr>
+                <th data-field="time">Time(HR-MM)</th>
+                <th data-field="day">(DayM-S)</th>
+                <th data-field="date">  Day(YYYY-MM-DD)</th>
+                <th data-field="district">District</th>
+                <th data-field="address">    Address</th>
+                <th data-field="year">    Year</th>
+                <th data-field="resolution"> Kind Of Incident</th>
+              </tr>
+            </thead>
+            <tbody id = "myTableID" class = "scrollit">
+
+            </tbody>
+            </table>
+          </div>
+        </div>
+
+    </main>
+    <ul class="collapsible" data-collapsible="accordion">
+       <li>
+         <div class="collapsible-header"><i class="material-icons">filter_drama</i>Why am I creating this?</div>
+         <div class="collapsible-body"><span>I created this app because people aren't usually aware of where traffic accidents occur most frequently. They can use my app to better inform themselves about the safety of their surroundings.</span></div>
+       </li>
+       <li>
+         <div class="collapsible-header"><i class="material-icons">language</i> Click here to view the source</div>
+           <div class="collapsible-body"><span>
+           <a href ='https://data.sfgov.org/Public-Safety/SFPD-Incidents-Traffic-Accidents/vv57-2fgy'>San Francisco Open Data SFPD: Incidents - Traffic Accidents</a>
+            </span>
+          </div>
+       </li>
+     </ul>
+
+    <footer class="page-footer #1976d2 blue darken-2">
+      <div class="container">
+        <div class="row">
+          <div class="col s9">
+            <h5 class="white-text">Private, Accurate, Secured</h5>
+            <p class="grey-text text-lighten-4">We find the most accurate traffic information to help you avoid traffice incidents</p>
+          </div>
+          <div class="col s3">
+            <ul>
+              <li><a class="white-text" href="index.html">Home Page</a></li>
+              <li><a class="white-text" href="#">Traffic Incidents</a></li>
+            </ul>
           </div>
         </div>
       </div>
-      <br>
-      <br>
-      <br>
-      <br>
-      <br>
-      <br>
-      <br>
-      <br>
-      <br>
-      <br>
-      <div>
-        <label for="selection-time">Please select the time of the day</label>
-        <select id="selection-time" class="validate" name="time">
-          <option value="" >Default_(12:00 am -11:59 pm)</option>
-          <option value = '01'> 1:00 a.m. </option>
-          <option value = '02'> 2:00 a.m. </option>
-          <option value = '03'> 3:00 a.m. </option>
-          <option value = '04'> 4:00 a.m. </option>
-          <option value = '05'> 5:00 a.m. </option>
-          <option value = '06'> 6:00 a.m. </option>
-          <option value = '07'> 7:00 a.m. </option>
-          <option value = '08'> 8:00 a.m. </option>
-          <option value = '09'> 9:00 a.m. </option>
-          <option value = '10'> 10:00 a.m. </option>
-          <option value = '11'> 11:00 a.m. </option>
-          <option value = '12'> 12:00 p.m. </option>
-          <option value = '13'> 1:00 p.m. </option>
-          <option value = '14'> 2:00 p.m. </option>
-          <option value = '15'> 3:00 p.m. </option>
-          <option value = '16'> 4:00 p.m. </option>
-          <option value = '17'> 5:00 p.m. </option>
-          <option value = '18'> 6:00 p.m. </option>
-          <option value = '19'> 7:00 p.m. </option>
-          <option value = '20'> 8:00 p.m. </option>
-          <option value = '21'> 9:00 p.m. </option>
-          <option value = '22'> 10:00 p.m. </option>
-          <option value = '23'> 11:00 p.m. </option>
-          <option value = '00'> 12:00 a.m. </option>
-        </select>
+      <div class="footer-copyright">
+        <div class="container">
+        <p>@ Kevin Zheng</p>
+        </div>
       </div>
-      <br>
-      <div >
-        <label for="selection-day">Please select the day of the week</label>
-        <select id="selection-day" name="week">
-          <option value="" >Default_(Monday - Sunday)</option>
-          <option value="Monday"> Monday </option>
-          <option value="Tuesday"> Tuesday </option>
-          <option value="Wednesday"> Wednesday </option>
-          <option value="Thursday"> Thursday </option>
-          <option value="Friday"> Friday </option>
-          <option value="Saturday"> Saturday </option>
-          <option value="Sunday"> Sunday </option>
-        </select>
-      </div>
-      <br>
-      <div>
-        <label for="selection-year">Please select the year</label>
-        <select id="selection-year" class="validate" name="year">
-          <option value="" >Default_(2003 - 2017) </option>
-          <option value = '2003'> 2003 </option>
-          <option value = '2004'> 2004 </option>
-          <option value = '2005'> 2005 </option>
-          <option value = '2006'> 2006 </option>
-          <option value = '2007'> 2007 </option>
-          <option value = '2008'> 2008 </option>
-          <option value = '2009'> 2009 </option>
-          <option value = '2010'> 2010 </option>
-          <option value = '2011'> 2011 </option>
-          <option value = '2012'> 2012 </option>
-          <option value = '2013'> 2013 </option>
-          <option value = '2014'> 2014 </option>
-          <option value = '2015'> 2015 </option>
-          <option value = '2016'> 2016 </option>
-          <option value = '2017'> 2017 </option>
-        </select>
-      </div>
-      <br>
-      <div >
-        <label for="selection-district">Please select the district in San Francisco</label>
-        <select id="selection-district" name="district">
-          <option value="" >Default_(All Districts)</option>
-          <option value = "BAYVIEW">BAYVIEW</option>
-          <option value = "CENTRAL">CENTRAL</option>
-          <option value = "INGLESIDE">INGLESIDE</option>
-          <option value = "MISSION">MISSION</option>
-          <option value = "NORTHERN">NORTHERN</option>
-          <option value = "PARK">PARK</option>
-          <option value = "RICHMOND">RICHMOND</option>
-          <option value = "SOUTHERN">SOUTHERN</option>
-          <option value = "TARAVAL">TARAVAL</option>
-          <option value = "TENDERLOIN">TENDERLOIN</option>
-        </select>
-      </div>
-      <br>
-      <div>
-        <label for="selection-resolution">Please select the kind of incident</label>
-        <select id="selection-resolution" class="validate" name="resolution">
-          <option value="" >Default_(All Resolutions) </option>
-          <option value = 'NONE'> NONE </option>
-          <option value = "ARREST, BOOKED"> ARREST, BOOKED </option>
-          <option value = 'ARREST, CITED'> ARREST, CITED </option>
-          <option value = "COMPLAINANT REFUSES TO PROSECUTE"> COMPLAINANT REFUSES TO PROSECUTE </option>
-          <option value = "DISTRICT ATTORNEY REFUSES TO PROSECUTE"> DISTRICT ATTORNEY REFUSES TO PROSECUTE </option>
-          <option value = "EXCEPTIONAL CLEARANCE"> EXCEPTIONAL CLEARANCE </option>
-          <option value = "JUVENILE ADMONISHED"> JUVENILE ADMONISHED </option>
-          <option value = "JUVENILE BOOKED"> JUVENILE BOOKED </option>
-          <option value = "JUVENILE CITED"> JUVENILE CITED </option>
-          <option value = "NOT PROSECUTED"> NOT PROSECUTED </option>
-          <option value = "PSYCHOPATHIC CASE"> PSYCHOPATHIC CASE </option>
-          <option value = "UNFOUNDED"> UNFOUNDED</option>
-        </select>
-      </div>
-    </br>
-      <div >
-        <button id="submit" class="btn waves-effect waves-light #f06292 pink lighten-2" type="submit" name="submitbutton" value="Submit">Click Here To Look At The Danger Zone!</button>
-      </div>
-    </form>
-
-    <div name = "display">
-      <div class="row">
-        <div>
-          <i class="medium material-icons iconleft  input-icon">input</i>
-          <div class = "input-text"> Total Incident :
-            <span id="numberofIncident"> </span> </div>
-          </div>
-      </div>
-    </div>
-    </div>
-    <div name="right-hand side" class="col s6">
-      <br>
-      <div id = "map-canvas" ></div>
-    </div>
-
-     <div class="row">
-       <div class="col s11 offset-s1">
-        <table class = "striped tablewid">
-        <thead>
-          <tr>
-            <th data-field="time">Time(HR-MM)</th>
-            <th data-field="day">(DayM-S)</th>
-            <th data-field="date">  Day(YYYY-MM-DD)</th>
-            <th data-field="district">District</th>
-            <th data-field="address">    Address</th>
-            <th data-field="year">    Year</th>
-            <th data-field="resolution"> Kind Of Incident</th>
-          </tr>
-        </thead>
-        <tbody id = "myTableID" class = "scrollit">
-
-        </tbody>
-        </table>
-      </div>
-    </div>
-
-</main>
-<ul class="collapsible" data-collapsible="accordion">
-   <li>
-     <div class="collapsible-header"><i class="material-icons">filter_drama</i>Why am I creating this?</div>
-     <div class="collapsible-body"><span>I created this app because people aren't usually aware of where traffic accidents occur most frequently. They can use my app to better inform themselves about the safety of their surroundings.</span></div>
-   </li>
-   <li>
-     <div class="collapsible-header"><i class="material-icons">language</i> Click here to view the source</div>
-       <div class="collapsible-body"><span>
-       <a href ='https://data.sfgov.org/Public-Safety/SFPD-Incidents-Traffic-Accidents/vv57-2fgy'>San Francisco Open Data SFPD: Incidents - Traffic Accidents</a>
-        </span>
-      </div>
-   </li>
- </ul>
-
-<footer class="page-footer #1976d2 blue darken-2">
-  <div class="container">
-    <div class="row">
-      <div class="col s9">
-        <h5 class="white-text">Private, Accurate, Secured</h5>
-        <p class="grey-text text-lighten-4">We find the most accurate traffic information to help you avoid traffice incidents</p>
-      </div>
-      <div class="col s3">
-        <ul>
-          <li><a class="white-text" href="index.html">Home Page</a></li>
-          <li><a class="white-text" href="#">Traffic Incidents</a></li>
-        </ul>
-      </div>
-    </div>
-  </div>
-  <div class="footer-copyright">
-    <div class="container">
-    <p>@ Kevin Zheng</p>
-    </div>
-  </div>
-</footer>
-
-<script>
-function loadScript() {
-  var script = document.createElement('script');
-  script.type = 'text/javascript';
-  script.src = 'https://maps.googleapis.com/maps/api/js?' +
-  'key=' + GOOGLE_KEY +'&callback=initMap';
-  script.async = true;
-  script.defer = true;
-  document.body.appendChild(script);
-}
-window.onload = loadScript;
-</script>
-<!--
-<script async defer src = `https://maps.googleapis.com/maps/api/js?key=${APIKey}&callback=initMap`></script>  -->
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js">
-</script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.0/js/materialize.min.js"></script>
-<script type='text/javascript' src='config.js'></script>
-<script type="text/javascript" src = "application.js"></script>
-</body>
+    </footer>
+  <!-- scripts -->
+    <script>
+    function loadScript() {
+      var script = document.createElement('script');
+      script.type = 'text/javascript';
+      script.src = 'https://maps.googleapis.com/maps/api/js?' +
+      'key=' + GOOGLE_KEY +'&callback=initMap';
+      script.async = true;
+      script.defer = true;
+      document.body.appendChild(script);
+    }
+    window.onload = loadScript;
+    </script>
+    <!--
+    <script async defer src = `https://maps.googleapis.com/maps/api/js?key=${APIKey}&callback=initMap`></script>  -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js">
+    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.0/js/materialize.min.js"></script>
+    <script type='text/javascript' src='config.js'></script>
+    <script type="text/javascript" src="application.js"></script>
+  </body>
 
 </html>

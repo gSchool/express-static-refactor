@@ -2,12 +2,11 @@ $(document).ready(function() {
   $('select').material_select();
 });
 
-var map;
-var infowindow;
+let map, infowindow;
 function initMap(){
   //map options
-  var sanfrancisco = { lat: 37.773972, lng: -122.431297 };
-  var options = {
+  let sanfrancisco = { lat: 37.773972, lng: -122.431297 };
+  let options = {
     diableDefaultUI: false,
     center: sanfrancisco,
     zoom: 12,
@@ -20,11 +19,11 @@ function initMap(){
       position: google.maps.ControlPosition.BOTTOM_LEFT
     }
   };
-  var element = document.getElementById('map-canvas');
+  let element = document.getElementById('map-canvas');
   //map
   map = new google.maps.Map(element, options);
 }
-// var incidents
+// let incidents
 function getData(){
   let url = ('https://data.sfgov.org/resource/vv57-2fgy.json');
   let incidents = [];
@@ -115,19 +114,19 @@ form.addEventListener("submit", function(e){
     if(afterFilter.length === 0){
       Materialize.toast("Found nothing, please try other options", 5000);
     }
-    //var markersArray = [];
+    //let markersArray = [];
     //console.log(incidentInfo);
     //Here is where I will be putting marketing but also adding content to my markers as well
 
     incidentInfo.forEach(function(crimeObj){
       //console.log(crimeObj);
-      var marker = new google.maps.Marker({
+      let marker = new google.maps.Marker({
         position: crimeObj.coordinates,
         map: map,
         icon: "images/car.png"
       });
 
-      var contentString = '<div id="content">'+
+      let contentString = '<div id="content">'+
       '<div id="siteNotice">'+
       '</div>'+
       '<h4 id="firstHeading" class="firstHeading">Car Incident</h4>'+
